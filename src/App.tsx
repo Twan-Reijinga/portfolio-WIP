@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-import './styles/App.css';
-import HighlitedText from './components/HighlightedText';
-import SpaceBackground from './components/SpaceBackground';
+import './app/styles/App.css';
+import HighlitedText from './app/components/HighlightedText';
+import SpaceBackground from './app/components/SpaceBackground';
 
 const App: FC = () => {
   return (

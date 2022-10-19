@@ -1,9 +1,9 @@
 import React, { FC, CSSProperties } from 'react';
 
 interface Props {
-  top: String;
-  left: String;
-  size: String;
+  top: Number;
+  left: Number;
+  size: Number;
 }
 
 const HighlitedText: FC<Props> = ({ top, left, size }) => {
