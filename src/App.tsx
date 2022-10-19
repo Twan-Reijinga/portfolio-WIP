@@ -5,7 +5,7 @@ import HighlitedText from './components/HighlightedText';
 const App: FC = () => {
   return (
     <div className="App">
-      <HighlitedText>Hello world!</HighlitedText>
+      <HighlitedText> Hello world! </HighlitedText>
     </div>
   );
 };

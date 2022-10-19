@@ -5,8 +5,8 @@ type Props = {
 };
 
 const HighlitedText: FC<Props> = ({ children }) => (
-  <div className="HighlitedText">
-    <h1>{children}</h1>
+  <div className="highlited-container">
+    <h1 className="highlited-text">{children}</h1>
   </div>
 );
 
