@@ -1,7 +1,11 @@
 .highlited-container {
   background-color: var(--primary-color);
-  padding: 10px;
+  padding: 5px 20px;
   width: fit-content;
+  position: absolute;
+  margin-top: 40vh;
+  margin-right: 50%;
+  right: 0;
 }
 
 .highlited-text {
@@ -9,15 +13,5 @@
   font-family: 'RobotoMono';
   font-weight: 600;
   background-color: transparent;
+  font-size: calc(50px + 1vmin);
 }
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
