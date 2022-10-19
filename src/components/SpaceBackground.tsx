@@ -1,13 +1,8 @@
 import React, { FC } from 'react';
+import Star from './Star';
 
-type Props = {
-  children?: string;
+const HighlitedText: FC = () => {
+  return <Star top="10" left="10" size="10"></Star>;
 };
-
-const HighlitedText: FC<Props> = ({ children }) => (
-  <div className="highlited-container">
-    <h1 className="highlited-text">{children}</h1>
-  </div>
-);
 
 export default HighlitedText;

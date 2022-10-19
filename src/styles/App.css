@@ -20,7 +20,7 @@
 }
 
 @media only screen and (max-width: 270px) {
-  .App {
+  .title-container {
     display: flex;
     justify-content: center;
   }
