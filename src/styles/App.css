@@ -1,0 +1,40 @@
+.highlited-container {
+  position: absolute;
+  width: fit-content;
+  padding: 5px 20px;
+  bottom: 50vh;
+  right: 55%;
+  background-color: var(--primary-color);
+}
+
+.highlited-text {
+  color: var(--secondary-color);
+}
+
+.sub-title {
+  position: absolute;
+  top: 50vh;
+  right: 50%;
+  color: var(--text-color);
+  font-style: italic;
+}
+
+@media only screen and (max-width: 270px) {
+  .App {
+    display: flex;
+    justify-content: center;
+  }
+  .highlited-container,
+  .sub-title {
+    left: auto !important;
+    right: auto !important;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .highlited-container,
+  .sub-title {
+    right: auto;
+    left: 10vmin;
+  }
+}

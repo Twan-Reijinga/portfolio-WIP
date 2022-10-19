@@ -1,0 +1,60 @@
+/* --- fonts --- */
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../assets/fonts/RobotoMono-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../assets/fonts/RobotoMono-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../assets/fonts/RobotoMono-ExtraLightItalic.ttf) format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../assets/fonts/RobotoMono-MediumItalic.ttf) format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../assets/fonts/RobotoMono-SemiBoldItalic.ttf) format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* --- text --- */
+h1 {
+  font-family: 'RobotoMono';
+  font-weight: 600;
+  background-color: transparent;
+  font-size: calc(20px + 3vmin);
+}
+
+span {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 270px) {
+  h1 {
+    font-size: 6vmin;
+  }
+}

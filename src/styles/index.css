@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #06cb79;
+  --secondary-color: #162632;
+  --text-color: #ffffff;
+  --star-color: #ffffff;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--secondary-color);
+}
+
+::-moz-selection {
+  color: var(--primary-color);
+  background: var(--text-color);
+}
+
+::selection {
+  color: var(--primary-color);
+  background: var(--text-color);
+}
