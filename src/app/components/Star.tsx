@@ -6,12 +6,12 @@ interface Props {
   size: Number;
 }
 
-const HighlitedText: FC<Props> = ({ top, left, size }) => {
+const Star: FC<Props> = ({ top, left, size }) => {
   const style: CSSProperties = {
     position: 'absolute',
     top: top + 'vh',
     left: left + '%',
-    height: size + 'px',
+    width: size + 'px',
     aspectRatio: 1,
     borderRadius: size + 'px',
     backgroundColor: '#fff',
@@ -20,4 +20,4 @@ const HighlitedText: FC<Props> = ({ top, left, size }) => {
   return <div style={style}></div>;
 };
 
-export default HighlitedText;
+export default Star;

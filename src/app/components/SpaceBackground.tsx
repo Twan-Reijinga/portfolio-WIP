@@ -1,24 +1,40 @@
 import React, { FC } from 'react';
 import Star from './Star';
-import starPositions from '../config/star-positions.json';
+import FullCircle from './FullCircle';
+import HalfCircle from './HalfCircle';
+import starStyles from '../config/star-style.json';
+import circleStyles from '../config/circle-style.json';
 
-interface starProps {
+interface styleProps {
   top: Number;
   left: Number;
   size: Number;
 }
 
-const stars: Array<starProps> = starPositions.stars;
+interface halfCircleProps extends styleProps {
+  rotation: Number;
+}
 
-const HighlitedText: FC = () => {
+const stars: Array<styleProps> = starStyles.stars;
+const fullCircleStyle: Array<styleProps> = circleStyles.fullCircles;
+const halfCircleStyle: Array<halfCircleProps> = circleStyles.halfCircles;
+
+const SpaceBackground: FC = () => {
   return (
     <div>
-      {stars.map((star, index) => {
-        return <Star key={index} top={star.top} left={star.left} size={star.size} />;
+      {stars.map((style, index) => {
+        return <Star key={index} top={style.top} left={style.left} size={style.size} />;
       })}
-      ;
+
+      {fullCircleStyle.map((style, index) => {
+        return <FullCircle key={index} top={style.top} left={style.left} size={style.size} />;
+      })}
+
+      {halfCircleStyle.map((style, index) => {
+        return <HalfCircle key={index} top={style.top} left={style.left} size={style.size} rotation={style.rotation} />;
+      })}
     </div>
   );
 };
 
-export default HighlitedText;
+export default SpaceBackground;

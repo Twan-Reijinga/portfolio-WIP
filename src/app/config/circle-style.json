@@ -1,0 +1,28 @@
+{
+  "fullCircles": [
+    {
+      "top": 40,
+      "left": 10,
+      "size": 11
+    },
+    {
+      "top": 25,
+      "left": 55,
+      "size": 7
+    }
+  ],
+  "halfCircles": [
+    {
+      "top": 75,
+      "left": 35,
+      "size": 9,
+      "rotation": 45
+    },
+    {
+      "top": 85,
+      "left": 80,
+      "size": 5,
+      "rotation": 270
+    }
+  ]
+}

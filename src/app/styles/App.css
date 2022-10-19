@@ -1,7 +1,7 @@
 .highlited-container {
   position: absolute;
   width: fit-content;
-  padding: 5px 20px;
+  padding: 0 5px;
   bottom: 50vh;
   right: 55%;
   background-color: var(--primary-color);
