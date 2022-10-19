@@ -14,13 +14,13 @@
   "halfCircles": [
     {
       "top": 75,
-      "left": 35,
+      "left": 30,
       "size": 9,
       "rotation": 45
     },
     {
       "top": 85,
-      "left": 80,
+      "left": 60,
       "size": 5,
       "rotation": 270
     }

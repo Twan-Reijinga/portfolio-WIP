@@ -2,9 +2,9 @@ import React, { FC, CSSProperties } from 'react';
 import { ReactComponent as SVG } from '../assets/images/full-circle.svg';
 
 interface Props {
-  top: Number;
-  left: Number;
-  size: Number;
+  top: number;
+  left: number;
+  size: number;
 }
 
 const FullCircle: FC<Props> = ({ top, left, size }) => {

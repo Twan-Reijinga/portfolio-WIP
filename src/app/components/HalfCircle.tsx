@@ -2,10 +2,10 @@ import React, { FC, CSSProperties } from 'react';
 import { ReactComponent as SVG } from '../assets/images/half-circle.svg';
 
 interface Props {
-  top: Number;
-  left: Number;
-  size: Number;
-  rotation: Number;
+  top: number;
+  left: number;
+  size: number;
+  rotation: number;
 }
 
 const HalfCircle: FC<Props> = ({ top, left, size, rotation }) => {

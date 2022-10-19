@@ -1,9 +1,9 @@
-import React, { FC, CSSProperties } from 'react';
+import React, { CSSProperties, FC } from 'react';
 
 interface Props {
-  top: Number;
-  left: Number;
-  size: Number;
+  top: number;
+  left: number;
+  size: number;
 }
 
 const Star: FC<Props> = ({ top, left, size }) => {

@@ -6,13 +6,13 @@ import starStyles from '../config/star-style.json';
 import circleStyles from '../config/circle-style.json';
 
 interface styleProps {
-  top: Number;
-  left: Number;
-  size: Number;
+  top: number;
+  left: number;
+  size: number;
 }
 
 interface halfCircleProps extends styleProps {
-  rotation: Number;
+  rotation: number;
 }
 
 const stars: Array<styleProps> = starStyles.stars;
