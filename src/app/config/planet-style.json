@@ -1,0 +1,9 @@
+{
+  "world": {
+    "top": 55,
+    "left": 70,
+    "size": 250,
+    "responsiveSize": 20,
+    "imageName": "world.gif"
+  }
+}

@@ -1,12 +1,12 @@
 import React, { CSSProperties, FC } from 'react';
 
-interface Props {
+interface props {
   top: number;
   left: number;
   size: number;
 }
 
-const Star: FC<Props> = ({ top, left, size }) => {
+const Star: FC<props> = ({ top, left, size }) => {
   const style: CSSProperties = {
     position: 'absolute',
     top: top + 'vh',

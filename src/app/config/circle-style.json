@@ -1,12 +1,12 @@
 {
   "fullCircles": [
     {
-      "top": 40,
+      "top": 30,
       "left": 10,
       "size": 11
     },
     {
-      "top": 25,
+      "top": 20,
       "left": 55,
       "size": 7
     }
